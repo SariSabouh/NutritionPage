@@ -22,7 +22,7 @@ body {
       border-radius: 0;
       font-family: Montserrat, sans-serif;
   }
-  .navbar li a, .navbar .navbar-brand {
+  .navbar li a:not(.dropdown-nav), .navbar .navbar-brand {
       color: #fff !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
@@ -35,15 +35,8 @@ body {
   }
 
   .dropdown-nav {
-      color: #fff !important;
-      background-color: #f4511e !important;
-  }
-  .dropdown-nav:hover {
       color: #f4511e !important;
-  }
-  .dropdown-nav {
-      border-color: transparent;
-      color: #fff !important;
+      background-color: #fff !important;
   }
 
   h2 {
